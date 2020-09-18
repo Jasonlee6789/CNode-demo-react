@@ -1,4 +1,9 @@
 @import "../../static/css/index.css";
+
+.border {
+  border: 1px solid #000000;
+}
+
 .title {
   color: green;
   composes: border;
@@ -6,8 +11,4 @@
 
 :global(.title) {
   font-size: 100px;
-}
-
-.border {
-  border: 1px solid #000000;
 }

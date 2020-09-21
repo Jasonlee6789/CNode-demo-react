@@ -1,7 +1,6 @@
-import React from "react";
-import style from "./index.module.css";
-
+import React from 'react';
 function GetstartPage() {
-  return <h1 className={style.title}>新手入门</h1>;
+  return (<h1>新手入门</h1>);
 }
+
 export default GetstartPage;
